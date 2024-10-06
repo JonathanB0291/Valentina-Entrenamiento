@@ -483,6 +483,9 @@ footer .info a{
         position: absolute;
         display: none;
         transform: translate(0);
+        margin-left: auto;
+        padding-right: 10px;
+        text-align: right;
     }
     header .redes{
         display: none;
