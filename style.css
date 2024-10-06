@@ -480,12 +480,9 @@ footer .info a{
 
 @media  (max-width:768px) {
     header nav{
-        position: absolute;
+        position: initial;
         display: none;
         transform: translate(0);
-        margin-left: auto;
-        padding-right: 10px;
-        text-align: right;
     }
     header .redes{
         display: none;
@@ -493,64 +490,46 @@ footer .info a{
     .nav-responsive{
         display: block;
     }
-    
     nav.responsive{
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background-color: #151623;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        /* responsive 
         display: flex;
         flex-direction: column;
         justify-content: center;
-        position: absolute;
+        position:absolute;
         left: 0;
         top: 0;
         width: 100%;
         height: 100vh;
-        background-color: #151623;
+        background-color:#151623;
         z-index: 99;
-        */ 
     }
     nav.responsive a{
-        font-size: 24px;
-        padding: 10px 0;
         display: block;
         width: fit-content;
         margin: 10px auto;
+        font-size: 30px;
     }
     .inicio .opciones{
         display: none;
     }
     .nosotros .fila{
         display: block;
-        margin-bottom: 30px; 
     }
     .nosotros .fila .col{
         width: 100%;
-
+        margin: auto;
     }
     .nosotros .fila .col img{
         max-width: 200px;
         display: block;
         margin: auto;
     }
-    .servicios .contenido-servicio .fila{
+    .servicios .contenido-seccion .fila{
         display: block;
     }
-    .servicios .contenido-servicio .fila .col{
-        width: 100%;
+    .servicios .contenido-seccion .fila .col{
+         width: 100%;
     }
-    .galeria .fila {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .contacto .contenedor-titulo {
-        margin-bottom: 30px; 
-    }
+    
     .contacto .fila{
         display: block;
     }
@@ -558,7 +537,7 @@ footer .info a{
         width: 100%;
         margin-bottom: 20px;
     }
-    .contacto .fila{
+    .contacto .fila-datos{
         display: block;
     }
     .contacto .fila-datos .col{
@@ -571,9 +550,7 @@ footer .info a{
     footer .info p{
         margin-bottom: 10px;
     }
-
-    }
-
+}
 
 
 
