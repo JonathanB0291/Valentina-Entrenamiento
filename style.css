@@ -466,16 +466,18 @@ footer .info a{
         z-index: 99;
     }
     nav.responsive a{
+        font-size: 24px;
+        padding: 10px 0;
         display: block;
         width: fit-content;
         margin: 10px auto;
-        font-size: 30px;
     }
     .inicio .opciones{
         display: none;
     }
     .nosotros .fila{
         display: block;
+        margin-bottom: 30px; 
     }
     .nosotros .fila .col{
         width: 100%;
@@ -491,6 +493,13 @@ footer .info a{
     }
     .servicios .contenido-servicio .fila .col{
         width: 100%;
+    }
+    .galeria .fila {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contacto .contenedor-titulo {
+        margin-bottom: 30px; 
     }
     .contacto .fila{
         display: block;
